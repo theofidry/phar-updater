@@ -60,5 +60,4 @@ final class Sha256Strategy extends ShaStrategyAbstract
     {
         return hash_file('sha256', $updater->getLocalPharFile());
     }
-
 }
